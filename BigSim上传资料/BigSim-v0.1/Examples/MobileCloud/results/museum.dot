@@ -1,0 +1,55 @@
+digraph reaction_graph {
+   rankdir=LR;
+   Node [shape = circle];
+   BigSim_Report [shape = parallelogram color = aliceblue style=filled label="BigSim
+Report"];
+BigSim_Report -> N__1644665403[color = aliceblue label = ""];
+ N__1644665403
+ [shape=circle, color=lightblue2, style=filled];
+N__363535304[ label="N__363535304"];
+ N__363535304 -> N_1936704277[ label = "r_3
+System Clock: 0"];
+N_1936704277[ label="N_1936704277"];
+ N_1936704277 -> N__376165347[ label = "r_4
+System Clock: 0"];
+N_2049339336[ label="N_2049339336"];
+ N_2049339336 -> N_825638250[ label = "r_14
+System Clock: 0"];
+N__1948967416[ label="N__1948967416"];
+ N__1948967416 -> N__363535304[ label = "r_1
+System Clock: 0"];
+N_825638250[ shape = doublecircle, color=lightblue2, style=filled, label="N_825638250"];
+N__1644665403[ shape = doublecircle, color=lightblue2, style=filled, label="N__1644665403"];
+ N__1644665403 -> N__1948967416[ label = "r_0
+System Clock: 0"];
+N__1913245661[ label="N__1913245661"];
+ N__1913245661 -> N__1071739153[ label = "r_6
+System Clock: 0"];
+N_925715374[ label="N_925715374"];
+ N_925715374 -> N_399227358[ label = "r_11
+System Clock: 0"];
+N__376165347[ label="N__376165347"];
+ N__376165347 -> N__1913245661[ label = "r_5
+System Clock: 0"];
+N__1071739153[ label="N__1071739153"];
+ N__1071739153 -> N__224383278[ label = "r_7
+System Clock: 0"];
+ N__1071739153 -> N__534984302[ label = "r_7
+System Clock: 0"];
+N__224383278[ label="N__224383278"];
+ N__224383278 -> N_1759146250[ label = "r_8
+System Clock: 0"];
+N__617561034[ label="N__617561034"];
+ N__617561034 -> N_2049339336[ label = "r_13
+System Clock: 0"];
+N__534984302[ shape = doublecircle, color=lightblue2, style=filled, label="N__534984302"];
+N_399227358[ label="N_399227358"];
+ N_399227358 -> N__617561034[ label = "r_12
+System Clock: 0"];
+N_842635737[ label="N_842635737"];
+ N_842635737 -> N_925715374[ label = "r_10
+System Clock: 0"];
+N_1759146250[ label="N_1759146250"];
+ N_1759146250 -> N_842635737[ label = "r_9
+System Clock: 0"];
+}
