@@ -1,4 +1,0 @@
-0{
-Airport.CheckIn.nil|Passenger.nil;
-Airport.(CheckIn.nil|Passenger.nil);
-}100.0%

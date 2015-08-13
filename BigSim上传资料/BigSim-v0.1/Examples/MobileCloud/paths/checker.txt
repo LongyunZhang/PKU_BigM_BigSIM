@@ -1,3 +1,0 @@
-0{
-Customer.Customer.Customer.Customer.nil|Operator.nil|Operator.nil|Router.nil;
-}0.0%
